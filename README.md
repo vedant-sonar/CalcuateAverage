@@ -3,15 +3,15 @@ import java.util.*;
 class ArrayX
 {
     public int Arr[];
-    public ArrayX(int no)
-    {
-        Arr = new int[no];
-    }
-    {
+        public ArrayX(int no)
+        {
+            Arr = new int[no];
+        }
+     {    
         Scanner sobj = new Scanner(System.in);
-          System.out.println("Enter the elements :");
-          int i = 0;
-
+                  System.out.println("Enter the elements :");
+                    int i = 0;
+          
           for(i=0; i < Arr.length; i++)
           {
              Arr[i] = sobj.nextInt();
